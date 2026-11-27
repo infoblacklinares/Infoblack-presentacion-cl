@@ -25,7 +25,7 @@
 - **Documentación técnica:** docs/estado-actual.md y docs/arquitectura/decisiones-abiertas.md.
 - **Objetivo:** ayudar a descubrir negocios, servicios y lugares de Linares y ofrecer visibilidad a comercios y emprendimientos.
 - **Estado técnico conocido:** la documentación tiene corte 2026-10-03 y reporta producción desplegada y CI con tests/build. Pendientes documentados: versionado del esquema Supabase, límites distribuidos para búsqueda/reseñas/reportes, estrategia de caché/service worker y revisión del bucket de imágenes. Confirmar antes de tratarlos como estado actual.
-- **Seguridad:** nunca copiar ni publicar claves Supabase. La documentación menciona una Secret Key antigua expuesta que debe rotarse; verificar su estado antes de cerrar esa deuda.
+- **Seguridad:** nunca copiar ni publicar claves Supabase ni secretos de entorno. Revisar el estado de rotación y permisos desde los paneles privados autorizados.
 
 ## 3. Diario El Estratega — medio digital
 - **Rol:** medio informativo regional y trabajo de modernización web/editorial.
