@@ -1,8 +1,8 @@
 # Imágenes del portafolio
 
-Subir aquí las tres imágenes WebP con estos nombres exactos:
-- infoblack.webp
-- linaresya.webp
-- diario-el-estratega.webp
+Capturas optimizadas en formato JPG:
+- `infoblack-small.jpg` — InfoBl@ck
+- `linaresya-small.jpg` — LinaresYa
+- `diario-small.jpg` — Diario El Estratega
 
-El index.html ya referencia estas rutas.
+Estas rutas están referenciadas en `index.html`.
